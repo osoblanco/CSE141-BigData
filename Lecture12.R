@@ -45,7 +45,7 @@ prp(fit, type=1, extra=4)
 ?prp
 pred <- predict(fit, test, type="class")
 table(pred,test$RainTomorrow)
-accuracuy=(62+7)/(62+9+13+7)
+accuracuy=(72+5)/(72+11+3+5)
   
 accuracuy
 
